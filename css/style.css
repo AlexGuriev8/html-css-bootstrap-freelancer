@@ -190,9 +190,14 @@ main #about .download-btn {
     border: 2px solid white;
 }
 
-#about .download-btn span {
+#about .download-btn {
   color: white;
   text-align: center;
+}
+#about .download-btn:hover {
+  background-color: white;
+  color: black;
+  transition: 0.5s;
 }
 
 #about .pad {
@@ -220,8 +225,8 @@ main #about .download-btn {
   color: #2c3e50;
 }
 
-.form-group input, .form-group
-textarea  {
+.form-group input,
+.form-group textarea  {
   border: none;
   margin-top: 20px;
   resize: none;
@@ -230,17 +235,19 @@ textarea  {
   border-radius: 0;
   font-size: 20px;
 }
+
 .form-group input:focus,
 .form-group textarea:focus {
   box-shadow: none;
-
-
 }
 
 #contact .btn-default {
   background-color: #5cc7cb;
   padding: 15px 25px;
   color: white;
+}
+#contact .btn-default:hover {
+  background-color: #1abc9c;
 }
 
 #contact .pad {
@@ -252,6 +259,7 @@ textarea  {
 #colorfooter {
   background-color: #2c3e50;
 }
+
 #colorfooter h4 {
   color: white;
   font-weight: bold;
@@ -260,15 +268,16 @@ textarea  {
   text-align: center;
 }
 
-
  #colorfooter p {
    color: white;
  }
+
   .location {
     text-align: center;
     padding-top: 30px;
     padding-bottom: 30px;
   }
+
   footer .social-button {
     color: white;
     background: transparent;
@@ -280,7 +289,6 @@ textarea  {
     padding: 0;
     margin-left: 10px;
     margin-right: 10px;
-
 }
 
 footer .marg {
@@ -290,7 +298,6 @@ footer .marg {
 .social-button i {
     line-height: 40px;
     text-align: center;
-
 }
 .social-button:hover{
     background-color: white;
@@ -298,6 +305,7 @@ footer .marg {
     transition: 0.5s;
     border-radius: 100%;
 }
+
 footer #start {
   color: #1abc9c;
 }
@@ -306,6 +314,7 @@ footer .last {
   background-color: #1a252f;
   text-align: center;
 }
+
 footer .last p {
   padding-top: 20px;
 }
