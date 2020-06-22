@@ -318,3 +318,14 @@ footer .last {
 footer .last p {
   padding-top: 20px;
 }
+
+/* Media query */
+@media screen and (max-width: 768px) {
+  header .navbar-right li a,
+  header .navbar-header  a {
+  display: none;
+  }
+
+
+
+}
