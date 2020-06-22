@@ -78,13 +78,14 @@ main .portafoglio {
   text-align: center;
 }
 
-main h2 {
+main #card h2 {
   font-size: 45px;
   text-align: center;
   font-weight: 700;
   padding-top: 70px;
   padding-bottom: 15px;
   color: #2c3e50;
+  text-transform: uppercase;
 }
 
 main #card .line {
@@ -129,12 +130,14 @@ main .row .col {
     bottom: 0;
     left: 15px;
     border-radius: 10px;
+
 }
 
 .overlay:hover {
     transition: 0.2s;
     background: rgba(26, 188, 156, 0.9);
     cursor: pointer;
+
 }
 
 #about .color {
@@ -142,6 +145,12 @@ main .row .col {
 }
 #about h2 {
   color: white;
+  font-size: 45px;
+  text-align: center;
+  font-weight: 700;
+  padding-top: 30px;
+  padding-bottom: 15px;
+  text-transform: uppercase;
 
 }
 main #about .line {
@@ -175,4 +184,93 @@ main #about .download-btn {
 
 #about .pad {
   padding-top: 50px;
+}
+/* contact me */
+#contact .portafoglio h2 {
+  font-size: 45px;
+  text-align: center;
+  font-weight: 700;
+  padding-top: 30px;
+  padding-bottom: 15px;
+  color: #2c3e50;
+  text-transform: uppercase;
+}
+ #contact .line {
+  width: 100px;
+  display: inline-block;
+  border: 3px solid  #2c3e50;
+  margin-bottom: 12px;
+  border-radius: 15px;
+}
+
+#contact .star .fa-star {
+  color: #2c3e50;
+}
+
+.form-group input,
+textarea  {
+  border: none;
+  margin-top: 20px;
+  resize: none;
+}
+
+#contact .btn-default {
+  background-color: #5cc7cb;
+  padding: 10px 15px;
+  color: white;
+}
+
+#contact .pad {
+  padding-top: 20px;
+  padding-bottom: 50px;
+}
+
+/* footer */
+#colorfooter {
+  background-color: #2c3e50;
+}
+#colorfooter h4 {
+  color: white;
+  font-weight: bold;
+  text-transform: uppercase;
+  padding-bottom: 10px;
+}
+ #colorfooter p {
+   color: white;
+ }
+  .location {
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+  }
+  footer .social-button {
+    color: white;
+    background: transparent;
+    padding: 0;
+    margin-top: 10px;
+    margin-right: 10px;
+    border: 2px solid white;
+    border-radius: 100%;
+}
+.social-button i {
+    line-height: 45px;
+    text-align: center;
+
+}
+.social-button:hover{
+    background-color: white;
+    color: black;
+    transition: 0.5s;
+    border-radius: 100%;
+}
+footer #start {
+  color: #1abc9c;
+}
+
+footer .last {
+  background-color: #1a252f;
+  text-align: center;
+}
+footer .last p {
+  padding-top: 20px;
 }
