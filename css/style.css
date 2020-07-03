@@ -34,6 +34,9 @@ header .navbar-fixed-top {
   padding-bottom: 15px;
     background-color: #2c3e50;
 }
+.image-card {
+  margin-top: 10px;
+}
 
 
 .startboostrap .img-responsive {
@@ -138,7 +141,7 @@ main .row .col {
 
 .overlay {
     position: absolute;
-    top: 0;
+    top: 10px;
     right: 15px;
     bottom: 0;
     left: 15px;
@@ -320,12 +323,38 @@ footer .last p {
 }
 
 /* Media query */
-@media screen and (max-width: 768px) {
+@media all and (max-width: 600px) {
+
   header .navbar-right li a,
   header .navbar-header  a {
   display: none;
   }
 
+  .download-btn {
+      color: white;
+      text-align: center;
+  }
 
+}
+@media all and (min-width: 601px)  and (max-width: 767px){
+  header .navbar-right li a
+   {
+  display: none;
+  }
 
+}
+@media all and (max-width: 1024px) and (min-width: 768px) {
+  header .navbar-right li a
+   {
+  display: none;
+}
+.overlay {
+    position: absolute;
+    top: 10px;
+    right: 15px;
+    bottom: 0;
+    left: 15px;
+    border-radius: 10px;
+
+}
 }
