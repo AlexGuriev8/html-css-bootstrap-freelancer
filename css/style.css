@@ -29,11 +29,13 @@ header .navbar-header  a {
   font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
   font-weight: bold;
 }
+
 header .navbar-fixed-top {
   padding-top: 15px;
   padding-bottom: 15px;
     background-color: #2c3e50;
 }
+
 .image-card {
   margin-top: 10px;
 }
@@ -197,6 +199,7 @@ main #about .download-btn {
   color: white;
   text-align: center;
 }
+
 #about .download-btn:hover {
   background-color: white;
   color: black;
@@ -206,6 +209,7 @@ main #about .download-btn {
 #about .pad {
   padding-top: 50px;
 }
+
 /* contact me */
 #contact .portafoglio h2 {
   font-size: 45px;
@@ -298,10 +302,12 @@ footer .marg {
   margin: 0 auto;
   display: inline-block;
 }
+
 .social-button i {
     line-height: 40px;
     text-align: center;
 }
+
 .social-button:hover{
     background-color: white;
     color: black;
@@ -337,24 +343,25 @@ footer .last p {
 
 }
 @media all and (min-width: 601px)  and (max-width: 767px){
-  header .navbar-right li a
-   {
+  header .navbar-right li a{
   display: none;
   }
 
 }
 @media all and (max-width: 1024px) and (min-width: 768px) {
-  header .navbar-right li a
-   {
+
+  header .navbar-right li  {
   display: none;
 }
+
 .overlay {
-    position: absolute;
-    top: 10px;
-    right: 15px;
-    bottom: 0;
-    left: 15px;
-    border-radius: 10px;
+  position: absolute;
+  top: 10px;
+  right: 15px;
+  bottom: 0;
+  left: 15px;
+  border-radius: 10px;
 
 }
+
 }
